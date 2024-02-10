@@ -1,0 +1,17 @@
+.search-bar-container {
+    margin-top: 4%;
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 50px;
+  }
+
+.button12{
+    background-color: aqua;
+    margin-left: 2%;
+    width: 20%;
+    border-radius: 10px;
+}
+
+  
+ 

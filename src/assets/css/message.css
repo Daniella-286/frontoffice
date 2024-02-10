@@ -1,0 +1,105 @@
+/* Message.css */
+.message-list {
+    width: 25%;
+    overflow-y: auto; /* Ajout de la barre de défilement */
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    padding-top: 0;
+  }
+.titre{
+    background-color: #1b2430;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+  .message-list h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .message-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .message-list li {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    width: 100%;
+  }
+  
+  .message-list li:hover {
+    background-color: #ddd;
+  }
+  .message-content{
+    margin-top: -25%;
+    height: 400px;
+    overflow-y: scroll;
+  }
+  .message-container{
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-evenly;
+    padding-bottom: 0%;
+  }
+
+  .message-sender form textarea{
+    width: 80%;
+    height: 50px;
+  }
+  .message-sender form button{
+    width: 20%;
+    height: 30px;
+    margin-top: 23px;
+    border: none;
+    background-color: rgb(231, 138, 24);
+    color : white;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  .contenu{
+    box-shadow: 2px 2px 4px black;
+    padding-top: 12%;
+    width: 40%;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+
+.message-content h3{
+    background-color: #1b2430;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.black-text {
+  background-color: rgb(102, 177, 247);
+    padding: 2%;
+    width: 50%;
+    margin-left: 45%;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.white-text {
+  background-color: bisque;
+  padding: 2%;
+  width: 50%;
+  margin-left: 2%;
+  border-radius: 5px;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+

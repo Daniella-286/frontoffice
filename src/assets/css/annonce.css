@@ -1,0 +1,138 @@
+.annonce-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 5%;
+    width: 40%;
+    height: 40%;
+    border: 2px solid #1b2430;
+    border-radius: 10px;
+  }
+.annonce-card.expanded {
+   width: 40%;
+}
+  
+  .image-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+  }
+ 
+  .car-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .annonce-details {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.326);
+    color: #fff;
+  }
+  
+  .annonce-details h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .annonce-details p {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px gray;
+  }
+  
+  .annonce-details p span {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 15px;
+    color: #1b2430;
+  }
+  
+  .buttons-container {
+    margin-top: 10px;
+  }
+  
+  .contact-button, .fav-button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  form{
+    display: flex;
+    margin-top: 1%;
+  }
+  .text{
+    width: 60%;
+  }
+  .text textarea{
+    width: 100%;
+    height: 50px;
+  }
+  .contact-button {
+    background-color: #1b2430; /* Gris noble */
+    color: #fff;
+    font-weight: bolder;
+  }
+  .envoyer-button{
+    width: 20%;
+    margin-left: 3%;
+    padding-top: 4%;
+  }
+
+  .envoyer-button button{
+    background-color: #2c7de7; /* Gris noble */
+    color: #fff;
+    font-weight: bolder;
+    padding: 6px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .fav-button {
+    background-color: #d5b061; /* Violet noble */
+    color: #fff;
+    font-weight: bolder;
+  }
+  .anatiny{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .detail-button {
+    border: none; /* Supprimez la bordure */
+    padding: 10px 20px; /* Espace intérieur */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Curseur de souris */
+    border-radius: 5px; /* Bordure arrondie */
+    transition: background-color 0.3s ease; /* Animation de transition */
+    font-size: 10px;
+    
+}
+.detail{
+    animation: fadeIn 1s ease-in-out forwards;
+}
+ 
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+ 
+
+  
+
+  

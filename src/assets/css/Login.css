@@ -1,0 +1,65 @@
+/* Annonce.css */
+
+.annoncelogin-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #8296B0;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.norme {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: white;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.buttons-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bokotra,
+.bokotra1  {
+    background-color: #dd8221;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+    width: 300px;
+    text-align: center;
+}
+
+.bokotra,
+.bokotra1 {
+    background-color: #c98848;
+    text-transform: uppercase;
+}

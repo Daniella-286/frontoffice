@@ -1,0 +1,110 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1b2430;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+#navbar{
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #fff;
+    transition: 0.3s ease-in-out ;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #c8721d;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #c8721d;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+#mobile i{
+  color: #fff;
+}
+
+#navbar li:hover .sousMenu {
+    display: block;
+  }
+  
+  .sousMenu {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 174, 255, 0.403);
+    width: 200px;
+    height: 150px;
+    border-radius: 3px;
+    
+  }
+  .sousMenu li a{
+    color: #c8721d;
+  }
+  .sousMenu a {
+    width: 100%;
+    display: block;
+    padding: 5px;
+ 
+  }
+
+  /* Autres styles précédents ... */
+
+.buttons-container {
+  margin-top: 10px;
+}
+
+.contact-button, .fav-button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.fav-button {
+  background-color: #28a745;
+  color: #fff;
+}
+.deconect{
+  padding: 10px;
+  border : 3px solid #840627;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: 15%;
+}
+.deconect:hover{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #840627;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+/* Annonce.css */
+

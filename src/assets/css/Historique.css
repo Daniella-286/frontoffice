@@ -1,0 +1,45 @@
+.historique-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.historique-item {
+    background-color: #c1d2ec;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.historique-item img {
+    width: 100%; 
+    height: 20%;
+    height: auto; 
+    border-radius: 8px; 
+  
+}
+
+.historique-item-details {
+    color: #1c1e21;
+    margin-top: 10px; /* Ajouter un espace entre l'image et les détails */
+}
+.historique-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.historique-item-user {
+    font-weight: bold;
+}
+
+.historique-item-date {
+    color: #606770;
+}
+
+
